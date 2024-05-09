@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class StatisticalService {
 
-  url = 'http://localhost:8080/api/statistical';
+  url = 'http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/statistical';
 
   constructor(private httpClient: HttpClient) { }
 
