@@ -5,9 +5,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class OrderService {
-  url = "http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/orders";
+  url = "https://d2505jbzq2fjuy.cloudfront.net/api/orders";
 
-  urlOrderDetail = "http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/orderDetail";
+  urlOrderDetail = "https://d2505jbzq2fjuy.cloudfront.net/api/orderDetail";
 
   constructor(private httpClient: HttpClient) { }
 

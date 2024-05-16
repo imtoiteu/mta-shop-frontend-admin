@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class RateService {
-  url = "http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/rates";
+  url = "https://d2505jbzq2fjuy.cloudfront.net/api/rates";
 
   constructor(private httpClient: HttpClient) { }
 

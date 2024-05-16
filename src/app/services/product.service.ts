@@ -7,7 +7,7 @@ import { Product } from '../common/Product';
 })
 export class ProductService {
 
-  url = "http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/products";
+  url = "https://d2505jbzq2fjuy.cloudfront.net/api/products";
 
   constructor(private httpClient: HttpClient) { }
 

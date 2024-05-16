@@ -6,7 +6,7 @@ import { Category } from '../common/Category';
   providedIn: 'root'
 })
 export class CategoryService {
-  url = "http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/categories";
+  url = "https://d2505jbzq2fjuy.cloudfront.net/api/categories";
   constructor(private httpClient: HttpClient) { }
   
   getAll() {

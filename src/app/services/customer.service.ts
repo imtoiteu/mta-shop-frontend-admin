@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class CustomerService {
 
-  url = "http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/auth";
+  url = "https://d2505jbzq2fjuy.cloudfront.net/api/auth";
 
   constructor(private httpClient: HttpClient) { }
 

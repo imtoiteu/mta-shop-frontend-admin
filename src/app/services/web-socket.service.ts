@@ -13,7 +13,7 @@ export class WebSocketService {
   constructor(private toastr: ToastrService) { }
 
   public openWebSocket() {
-    this.webSocket = new WebSocket('ws://ec2-3-82-6-253.compute-1.amazonaws.com:8080/notification');
+    this.webSocket = new WebSocket('ws://ec2-54-237-189-33.compute-1.amazonaws.com:8080/notification');
 
     this.webSocket.onopen = (event) => {
       // console.log('Open: ', event);

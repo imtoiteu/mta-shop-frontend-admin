@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class NotificationService {
 
-  url = 'http://ec2-3-82-6-253.compute-1.amazonaws.com:8080/api/notification';
+  url = 'https://d2505jbzq2fjuy.cloudfront.net/api/notification';
 
   constructor(private http: HttpClient) { }
 
