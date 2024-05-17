@@ -191,7 +191,7 @@ export class DashboardComponent implements OnInit {
   }
 
   openWebSocket() {
-    this.webSocket = new WebSocket('ws://d2505jbzq2fjuy.cloudfront.net/notification');
+    this.webSocket = new WebSocket('wss://d2505jbzq2fjuy.cloudfront.net/notification');
 
     this.webSocket.onopen = (event) => {
       // console.log('Open: ', event);
